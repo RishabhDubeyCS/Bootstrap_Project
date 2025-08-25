@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rishabh Dubey - Portfolio</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <style>
+    /* Optional: index.css */
+.card .badge {
+  word-break: break-word;
+  white-space: normal;
+}
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-md fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiByeD0iMjAiIGZpbGw9IndoaXRlIi8+Cjx0ZXh0IHg9IjIwIiB5PSIyNiIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iYmxhY2siIHRleHQtYW5jaG9yPSJtaWRkbGUiPlI8L3RleHQ+Cjwvc3ZnPgo=" alt="Logo">
+      </a>
+      
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <i class="fas fa-bars text-white"></i>
+      </button>
+      
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-center">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+          <li class="nav-item ms-2">
+            <a class="btn-resume" href="assets/resume.pdf" id="resumeBtn" download="Rishabh_Dubey_Resume.pdf">
+              <i class="fas fa-download"></i> Resume
+            </a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="btn-contact" href="#contact">
+              <i class="fas fa-envelope"></i> Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="section">
+    <div class="container">
+      <div class="row align-items-center min-vh-100">
+        <div class="col-lg-8">
+          <h1>hello world</h1>
+<h2 class="text-white">
+  I design <span class="fst-italic">&amp;</span> craft beautiful websites that solve your 
+  <span class="fst-italic">business needs</span>
+</h2>
+
+          <p class="lead">Hello, I'm Rishabh, a B.Tech 3rd-year student passionate about developing and designing web and mobile applications that make a difference.</p>
+          
+          <div class="hero-buttons">
+            <a href="#contact" class="btn-contact">
+              <i class="fas fa-paper-plane"></i> Get in Touch
+            </a>
+            <a href="assets/resume.pdf" class="btn-resume" id="heroResumeBtn" download="Rishabh_Dubey_Resume.pdf">
+              <i class="fas fa-download"></i> Download Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <div class="d-inline-block p-3 bg-primary rounded-circle mb-3">
+        <i class="fas fa-user text-white fa-2x"></i>
+      </div>
+      <h3 class="display-6 fw-bold">Rishabh Dubey</h3>
+      <p class="text-muted">MERN Stack Developer | 3rd Year B.Tech CSE Student</p>
+    </div>
+    
+    <div class="row align-items-center mt-5">
+      <!-- Left Column -->
+      <div class="col-md-4 mb-4">
+        <div class="text-center">
+          <h4 class="fw-bold mb-3">My Approach</h4>
+          <p class="fs-5 fst-italic">Logic, Consistency, and Rationality</p>
+        </div>
+      </div>
+      
+      <!-- Right Column -->
+      <div class="col-md-8">
+        <p class="lead mb-4">
+          I'm <span class="fw-bold">Rishabh Dubey</span>, a passionate <strong>MERN Stack Developer</strong> 
+          and <strong>3rd-year B.Tech CSE student</strong> at SAGE University, Bhopal.  
+          I specialize in building fast, scalable, and user-friendly web applications.
+        </p>
+        
+        <p class="mb-4">
+          My journey in technology is driven by curiosity and a desire to solve real-world 
+          problems through innovative digital solutions. I enjoy working with <strong>React, Node.js, 
+          Express, and MongoDB</strong>, and I love creating applications that are both functional and 
+          aesthetically pleasing.
+        </p>
+        
+        <!-- Social Links -->
+       <div class="d-flex gap-3 flex-wrap justify-content-center justify-content-md-start">
+  <a href="https://x.com/rishabhdubey" class="social-icon twitter btn btn-sm rounded-circle" target="_blank">
+    <i class="fab fa-x-twitter"></i>
+  </a>
+  <a href="https://github.com/rishabhdubey" class="social-icon github btn btn-sm rounded-circle" target="_blank">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/rishabhdubey/" class="social-icon linkedin btn btn-sm rounded-circle" target="_blank">
+    <i class="fab fa-linkedin"></i>
+  </a>
+  <a href="https://www.instagram.com/rishabhdubey/" class="social-icon instagram btn btn-sm rounded-circle" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>
+</div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+  <div class="container">
+    <h2 class="mb-4">Skills & Expertise</h2>
+    <div class="row g-4">
+      <!-- Frontend Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="skill-card h-100 p-4 text-center shadow-sm">
+          <div class="mb-3">
+            <i class="fas fa-laptop-code fa-2x text-primary"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Frontend Development</h5>
+          <div class="d-flex flex-wrap justify-content-center gap-2">
+            <span class="badge bg-primary">HTML</span>
+            <span class="badge bg-primary">CSS</span>
+            <span class="badge bg-primary">Tailwind CSS</span>
+            <span class="badge bg-primary">JavaScript</span>
+            <span class="badge bg-primary">React.js</span>
+            <span class="badge bg-primary">Next.js 13</span>
+            <span class="badge bg-primary">Next.js 12</span>
+            <span class="badge bg-primary">React Native</span>
+          </div>
+        </div>
+      </div>
+      <!-- Backend Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="skill-card h-100 p-4 text-center shadow-sm">
+          <div class="mb-3">
+            <i class="fas fa-server fa-2x text-success"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Backend Development</h5>
+          <div class="d-flex flex-wrap justify-content-center gap-2">
+            <span class="badge bg-success">Node.js</span>
+            <span class="badge bg-success">Express.js</span>
+            <span class="badge bg-success">REST APIs</span>
+            <span class="badge bg-success">CI/CD</span>
+            <span class="badge bg-success">C++/C</span>
+          </div>
+        </div>
+      </div>
+      <!-- Database Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="skill-card h-100 p-4 text-center shadow-sm">
+          <div class="mb-3">
+            <i class="fas fa-database fa-2x text-warning"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Database & ORM</h5>
+          <div class="d-flex flex-wrap justify-content-center gap-2">
+            <span class="badge bg-warning text-dark">MongoDB</span>
+            <span class="badge bg-warning text-dark">Mongoose</span>
+            <span class="badge bg-warning text-dark">MySQL</span>
+          </div>
+        </div>
+      </div>
+      <!-- DevOps & Tools Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="skill-card h-100 p-4 text-center shadow-sm">
+          <div class="mb-3">
+            <i class="fas fa-tools fa-2x text-info"></i>
+          </div>
+          <h5 class="fw-bold mb-2">DevOps & Tools</h5>
+          <div class="d-flex flex-wrap justify-content-center gap-2">
+            <span class="badge bg-info text-dark">Docker</span>
+            <span class="badge bg-info text-dark">Git & GitHub</span>
+            <span class="badge bg-info text-dark">CI/CD</span>
+          </div>
+        </div>
+      </div>
+      <!-- Cloud Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="skill-card h-100 p-4 text-center shadow-sm">
+          <div class="mb-3">
+            <i class="fas fa-cloud fa-2x text-secondary"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Cloud & Services</h5>
+          <div class="d-flex flex-wrap justify-content-center gap-2">
+            <span class="badge bg-secondary">Amazon Web Services (AWS)</span>
+          </div>
+        </div>
+      </div>
+      <!-- Programming Languages Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="skill-card h-100 p-4 text-center shadow-sm">
+          <div class="mb-3">
+            <i class="fas fa-code fa-2x text-danger"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Programming Languages</h5>
+          <div class="d-flex flex-wrap justify-content-center gap-2">
+            <span class="badge bg-danger">JavaScript</span>
+            <span class="badge bg-danger">TypeScript</span>
+            <span class="badge bg-danger">C++</span>
+            <span class="badge bg-danger">C</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Inspiration Banner Section (Bootstrap version) -->
+  <section class="py-5" style="background: linear-gradient(90deg, #e11d48 0%, #a21caf 100%); margin-top: 3rem;">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <!-- Left: Slogan and Icon -->
+        <div class="col-md-4 text-white mb-3 mb-md-0">
+          <div class="fw-semibold fs-4 mb-2">
+            impossible is <span class="fst-italic">nothing</span> —
+          </div>
+          <div class="d-flex align-items-center gap-2 font-monospace fst-italic">
+            <!-- Adidas SVG Icon -->
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 24 24">
+                <title>Adidas</title>
+                <path d="M11.936 17.952c0-.644.517-1.16 1.162-1.16.644 0 1.16.516 1.16 1.16a1.157 1.157 0 01-1.16 1.161 1.157 1.157 0 01-1.162-1.16m4.724 0c0-.645.517-1.162 1.161-1.162s1.161.517 1.161 1.161-.517 1.161-1.16 1.161a1.157 1.157 0 01-1.162-1.16m-10.95 0c0-.645.517-1.162 1.161-1.162s1.16.517 1.16 1.161-.516 1.161-1.16 1.161a1.157 1.157 0 01-1.161-1.16m-4.724 0c0-.645.517-1.162 1.161-1.162s1.161.517 1.161 1.161a1.157 1.157 0 01-1.161 1.161 1.157 1.157 0 01-1.16-1.16m9.55-2.052h-1.01v4.063h1.01v-4.063zM3.3 19.964h1.01v-4.063H3.3v.326a2.087 2.087 0 00-1.2-.374c-1.162 0-2.1.938-2.1 2.1 0 1.168.938 2.099 2.1 2.099.445 0 .858-.135 1.2-.374v.286zm15.674 0h1.01v-4.063h-1.01v.326a2.087 2.087 0 00-1.2-.374c-1.162 0-2.1.938-2.1 2.1a2.092 2.092 0 002.1 2.099c.445 0 .858-.135 1.2-.374v.286zm1.384-1.32c.032.82.732 1.4 1.9 1.4.955 0 1.742-.414 1.742-1.328 0-.636-.358-1.01-1.185-1.17l-.644-.126c-.414-.08-.7-.16-.7-.406 0-.27.278-.39.628-.39.51 0 .716.255.732.557h1.018c-.056-.795-.692-1.328-1.718-1.328-1.057 0-1.686.58-1.686 1.336 0 .922.748 1.073 1.392 1.193l.533.095c.382.072.549.183.549.406 0 .199-.191.397-.645.397-.66 0-.874-.342-.882-.636h-1.034zM8.024 14.517v1.71a2.087 2.087 0 00-1.2-.374c-1.162 0-2.1.938-2.1 2.1 0 1.168.938 2.099 2.1 2.099.444 0 .858-.135 1.2-.374v.286h1.01v-5.447h-1.01zm6.226 0v1.71a2.087 2.087 0 00-1.2-.374c-1.161 0-2.1.938-2.1 2.1a2.092 2.092 0 002.1 2.099c.445 0 .858-.135 1.2-.374v.286h1.01v-5.447h-1.01zm-11.626-1.2l.684 1.2h4.716l-1.869-3.229-3.53 2.028zm7.913 2.21v-1.01h3.713l-3.96-6.855L6.751 9.69l2.776 4.827v1.01h1.01zm5.217-1.01h4.723L14.37 3.948l-3.531 2.036 4.915 8.533z"></path>
+            </svg>
+          </span>
+          <span class="fs-6">Advertisement Campaign</span>
+        </div>
+      </div>
+      <!-- Right: Quote -->
+      <div class="col-md-8 text-white">
+        <div class="opacity-75 mb-2">
+          Impossible is just a big word thrown around by small men who find it easier to live in the world they've been given than to explore the power they have to change it. Impossible is not a fact. It's an opinion. Impossible is not a declaration. It's a dare. Impossible is potential. Impossible is temporary. Impossible is nothing.
+        </div>
+        <div class="text-white-50 fst-italic small">
+          — John C. Maxwell | 
+          <a class="text-white text-decoration-underline" target="_blank" rel="noreferrer noopener"
+             href="https://www.google.co.in/books/edition/The_Difference_Maker/zig4-x2oB1sC?hl=en&amp;gbpv=0"
+             title="The Difference Maker Making Your Attitude Your Greatest Asset">
+            The Difference Maker - 2006
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card p-4 h-100">
+            <h5 class="mb-3">E-Commerce Platform</h5>
+            <p class="mb-3">A full-stack e-commerce solution with user authentication, payment integration, and admin dashboard.</p>
+            <div class="d-flex gap-2 mb-3">
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">MongoDB</span>
+            </div>
+            <a href="#" class="btn btn-outline-primary mt-auto">View Project</a>
+          </div>
+        </div>
+        
+        <div class="col-md-6">
+          <div class="card p-4 h-100">
+            <h5 class="mb-3">Task Management App</h5>
+            <p class="mb-3">Collaborative task management with real-time updates and team collaboration features.</p>
+            <div class="d-flex gap-2 mb-3">
+              <span class="skill-tag">Vue.js</span>
+              <span class="skill-tag">Express</span>
+              <span class="skill-tag">Socket.io</span>
+            </div>
+            <a href="#" class="btn btn-outline-primary mt-auto">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="section" style="background: var(--background-color);">
+  <div class="container">
+    <h2>Achievements</h2>
+    <div class="row g-4">
+      <!-- Achievement Card 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card p-4 h-100 d-flex flex-column">
+          <div class="d-flex align-items-center mb-3">
+            <i class="fas fa-robot text-primary fa-2x me-3"></i>
+            <h5 class="mb-0">Generative AI Workshop</h5>
+          </div>
+          <div class="flex-grow-1">
+            <p class="mb-2">
+              Participated in the Generative AI Model workshop conducted by AI expert and IIT Delhi alumnus, Mr. Trivikrama. Gained essential AI skills for the modern era.
+            </p>
+          </div>
+          <div>
+            <span class="badge bg-secondary mt-2">#AGI #artificialintelligence #technology #Netwave #certificate</span>
+          </div>
+        </div>
+      </div>
+      <!-- Achievement Card 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card p-4 h-100 d-flex flex-column">
+          <div class="d-flex align-items-center mb-3">
+            <i class="fas fa-certificate text-success fa-2x me-3"></i>
+            <h5 class="mb-0">DevTown AI/ML Certificate</h5>
+          </div>
+          <div class="flex-grow-1">
+            <p class="mb-2">
+              Successfully completed the AI / Machine Learning course by DevTown, demonstrating deep understanding and proficiency.
+            </p>
+          </div>
+          <div>
+            <span class="badge bg-secondary mt-2">#achievement #Artificalintelligence #machinelearning #devtown #education #certificate</span>
+          </div>
+        </div>
+      </div>
+      <!-- Achievement Card 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card p-4 h-100 d-flex flex-column">
+          <div class="d-flex align-items-center mb-3">
+            <i class="fab fa-aws text-warning fa-2x me-3"></i>
+            <h5 class="mb-0">AWS Billing & Cost Management</h5>
+          </div>
+          <div class="flex-grow-1">
+            <p class="mb-2">
+              Completed Amazon Web Services training and certification in Billing and Cost Management.
+            </p>
+          </div>
+          <div>
+            <span class="badge bg-secondary mt-2">#Amazonwebservices #certificate #careergrowth #professnalDevlopment</span>
+          </div>
+        </div>
+      </div>
+      <!-- Achievement Card 4 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card p-4 h-100 d-flex flex-column">
+          <div class="d-flex align-items-center mb-3">
+            <i class="fas fa-microsoft text-primary fa-2x me-3"></i>
+            <h5 class="mb-0">Be10x Microsoft Office AI Tool</h5>
+          </div>
+          <div class="flex-grow-1">
+            <p class="mb-2">
+              Achieved Be10x Microsoft Office using AI Tool certificate, showcasing commitment to professional growth.
+            </p>
+          </div>
+          <div>
+            <span class="badge bg-secondary mt-2">#Certification #ProfessionalDevelopment #CareerGrowth #AITool</span>
+          </div>
+        </div>
+      </div>
+      <!-- Achievement Card 5 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card p-4 h-100 d-flex flex-column">
+          <div class="d-flex align-items-center mb-3">
+            <i class="fas fa-file-excel text-success fa-2x me-3"></i>
+            <h5 class="mb-0">Excel Skill Certification</h5>
+          </div>
+          <div class="flex-grow-1">
+            <p class="mb-2">
+              Completed Excel Skill Certification from One Roadmap. Always learning, always growing!
+            </p>
+          </div>
+          <div>
+            <span class="badge bg-secondary mt-2">#ExcelCertified #LearningJourney #CertificateOfAchievement #ProductivitySkills</span>
+          </div>
+        </div>
+      </div>
+      <!-- Achievement Card 6 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card p-4 h-100 d-flex flex-column">
+          <div class="d-flex align-items-center mb-3">
+            <i class="fas fa-laptop-code text-info fa-2x me-3"></i>
+            <h5 class="mb-0">Deloitte Australia Forage</h5>
+          </div>
+          <div class="flex-grow-1">
+            <p class="mb-2">
+              Completed Deloitte Australia's Technology job simulation: development, coding, and dashboard proposal.
+            </p>
+          </div>
+          <div>
+            <span class="badge bg-secondary mt-2">#Forage #Technology #Simulation</span>
+          </div>
+        </div>
+      </div>
+      <!-- Achievement Card 7 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card p-4 h-100 d-flex flex-column">
+          <div class="d-flex align-items-center mb-3">
+            <i class="fas fa-brain text-danger fa-2x me-3"></i>
+            <h5 class="mb-0">AI For All (Intel & CBSE)</h5>
+          </div>
+          <div class="flex-grow-1">
+            <p class="mb-2">
+              Completed AI Appreciate stage of AI For All by Intel & CBSE under Digital India. Focused on ethical AI.
+            </p>
+          </div>
+          <div>
+            <span class="badge bg-secondary mt-2">#AIForAll #AIAppreciate #CertificateOfCompletion #EthicalAI #Intel #CBSE #DigitalIndia</span>
+          </div>
+        </div>
+      </div>
+      <!-- Achievement Card 8 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card p-4 h-100 d-flex flex-column">
+          <div class="d-flex align-items-center mb-3">
+            <i class="fas fa-graduation-cap text-primary fa-2x me-3"></i>
+            <h5 class="mb-0">AI for Beginners & GenAI Studio</h5>
+          </div>
+          <div class="flex-grow-1">
+            <p class="mb-2">
+              Completed AI for Beginners (HP LIFE) and Introduction to Generative AI Studio (Google Cloud & Simplilearn).
+            </p>
+          </div>
+          <div>
+            <span class="badge bg-secondary mt-2">#AI #GenerativeAI #Certification #TechLearning</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Let's Connect</h2>
+      <div class="row g-5">
+        <div class="col-lg-6">
+          <div class="contact-card">
+            <h4 class="mb-4">Get in Touch</h4>
+            <p class="mb-4">Let's discuss new opportunities and collaborate on interesting projects.</p>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h6 class="mb-1">Email</h6>
+                <a href="mailto:rishabhdubeycse@gmail.com" class="text-white">rishabhdubeycse@gmail.com</a>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <h6 class="mb-1">Phone</h6>
+                <span class="text-white">6266697361</span>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h6 class="mb-1">Location</h6>
+                <span class="text-white">Bhopal, Madhya Pradesh, India</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="contact-form">
+            <h4 class="mb-4">Send Message</h4>
+            <form id="contactForm">
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Your Name" required>
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Your Email" required>
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Subject" required>
+              </div>
+              <div class="mb-4">
+                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn-contact w-100">
+                <i class="fas fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row text-center text-md-start">
+        <div class="col-md-6 col-lg-3 mb-4">
+          <h5 class="mb-3">Rishabh Dubey</h5>
+          <p class="mb-3">Passionate developer creating innovative solutions.</p>
+          <div class="d-flex justify-content-center justify-content-md-start">
+            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-3 mb-4">
+          <h5 class="mb-3">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#about" class="text-white-50">About</a></li>
+            <li><a href="#skills" class="text-white-50">Skills</a></li>
+            <li><a href="#projects" class="text-white-50">Projects</a></li>
+            <li><a href="#contact" class="text-white-50">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-md-6 col-lg-3 mb-4">
+          <h5 class="mb-3">Services</h5>
+          <ul class="list-unstyled text-white-50">
+            <li>Web Development</li>
+            <li>UI/UX Design</li>
+            <li>API Development</li>
+          </ul>
+        </div>
+        
+        <div class="col-md-6 col-lg-3 mb-4">
+          <h5 class="mb-3">Contact Info</h5>
+          <p class="text-white-50 mb-1">rishabhdubeycse@example.com</p>
+          <p class="text-white-50 mb-1">+91 6266697361</p>
+          <p class="text-white-50">Bhopal, MP, India</p>
+        </div>
+      </div>
+      
+      <hr class="my-4" style="border-color: rgba(255,255,255,0.2);">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="mb-0 text-white-50">© 2025 Rishabh Dubey. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Optimized JavaScript -->
+  <script src="script.js">
+   
+  </script>
+</body>
+</html>
